@@ -1,43 +1,118 @@
 .App {
-  text-align: center;
+  text-align: center;  
+  
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.raniaheader 
+{
+  background:#d6ad78;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.raniaheader a {
+.raniaheader a{
   margin: 10px;
   text-decoration: none;
+  transition: 0.2s ease-in;
+  padding: 20px;
+  font-size: 20px;
+  
+  font-family: cursive;
+}
+
+.me-auto a{
+  color: #7a001f;
+
+}
+.Footer {
+  padding: 2rem 0;
+  margin-top: 15rem;
+  background: #ffcd95;
+}
+
+.ft-1 h3 {
+  font-weight: 700;
+  font-family: cursive;
+  letter-spacing: 2px;
+  padding: 0.5rem 0;
+  color:#000
+}
+
+.ft-1 span {
+  color: #c07016;
+}
+
+.ft-1 p {
+  padding: 0rem 5rem 0.8rem 0;
+  font-weight: 500;
+}
+
+.footer-icons i {
+  padding: 0.4rem 0.5rem;
+  background: #e1e1e1;
+  color: #724305;
+  margin: 0 0.5rem;
+  border-radius: 50%;
+}
+
+.footer-icons i:hover {
+  background: #af5e01;
+  color: #fff;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.Footer h5 {
+  color: #020001
+}
+
+.ft-2 ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.ft-2 ul li {
+  padding: 0.35rem 0;
+  font-weight: 500;
+}
+
+.ft-2 ul a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.06rem;
+}
+
+.ft-3 p {
+  font-weight: 500;
+  padding: 0.1rem 0;
+  font-size: 1.06rem;
+}
+
+.ft-3 i {
+  padding-right: 0.5rem;
+}
+
+.Last-footer {
+  background: #b85505;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+.Last-footer p {
+  margin-bottom: 0;
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+.mb-4{
+  
+  background: #f3f2f1;
+  width: 70%;
+  text-align: justify;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 200px;
+  margin-top: 20px;
+
+
+
+}
+
+h1{
+  padding-top: 20px;
 }

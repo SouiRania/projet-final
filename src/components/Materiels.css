@@ -1,0 +1,40 @@
+h2{
+    padding-top: 50px;
+    padding-left: 100px;
+    color:rgb(7, 0, 0);
+    text-align: justify;
+}
+
+.Mater p{
+    padding-top: 30px;
+    padding-left: 100px;
+    color:rgb(7, 0, 0);
+    text-align: justify; 
+    font-family: sans-serif;
+}
+.Mater img{
+    width: 1200px;
+    height: 500px;
+}
+
+.Mat{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 100px 200px;
+    grid-column-gap: 20px;
+    grid-row-gap: 30px;
+}
+.CardMat img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    transition: .2s ease;
+    cursor: pointer;}
+.CardMat:hover{
+        transform: scale(1.06);
+      }
+.CardMat Button{
+    background: #ee3645;
+    border-color: #ee3645;
+
+}
